@@ -1,0 +1,283 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    width:fit-content;
+
+}
+html{
+    width: 100vw;
+}
+body{
+    width:100vw;
+}
+.desktop1{
+display: flex;
+background-color: white;
+flex-direction: column;
+width:100vw;
+height: auto;
+justify-content: center;
+float:top;
+}
+.d1{
+order: 0;
+position: relative;
+top:0%;
+flex-shrink: 1;
+flex-grow: 1;
+width: 100vw;
+height: 100px;
+background: #656CEC;
+border-bottom: 3px solid #FFFFFF;
+}
+.d1 p{
+    /* Leaderboard */
+position: relative;
+width: 362px;
+top: 18px;
+margin: 0 auto;
+/* left: calc(50vw - 181px); */
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+color: #FFFFFF;
+}
+
+.d2{
+    order: 1;
+    position: relative;
+    top:0;
+    height: 354px;
+    width: calc(100vw);
+    flex-grow: 1;
+    flex-shrink: 1;
+    background:#656CEC;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    
+}
+
+/* .s2{
+    order: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+#s1{
+    margin-left:auto;
+}
+#s2{
+    margin-right: auto;
+}
+.d2 .circ{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #BABEFF;
+}
+
+
+.circ p{
+    position: relative;
+    top: 4px;
+    left: 12px;
+    width: 17px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.s .circ{
+    position: relative;
+    top: 71px;
+    left: calc(50% - 18px);
+
+}
+
+.d2 .ell{
+ width: 172px;
+ height: 172px;
+ border-radius: 50%;
+ background: #BABEFF;
+ border: 6px solid white;
+ position: relative;
+ top: 77px;
+
+}
+.s .nbox{
+    position: relative;
+    width: auto;
+    height: 32px;
+    top: 84px;
+    left: auto;
+
+    background: #BABEFF;
+    border-radius: 16px;
+}
+
+.s .nbox p{
+    text-align: center;
+    width: auto;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    top: 4px;
+    color: #FFFFFF;
+}
+
+.b1 .circ{
+    position: relative;
+    top: 4px;
+    left: calc(50% - 18px);
+}
+
+.bigell{
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    background: #BABEFF;
+    border: 6px solid white;
+    position: relative;
+    top: 10px;
+
+}
+
+.b1 .nbox{
+    position: relative;
+    width: auto;
+    height: 42.97px;
+    top: 16px;
+
+    background: #BABEFF;
+    border-radius: 36px;
+}
+
+.b1 .nbox p{
+    position: relative;
+    width: auto;
+    height: 25.51px;
+    top: 6.5px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+}
+
+.d3{
+    order:2;
+    position: relative;
+    top: 23px;
+    width: 100vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+    .d3 ul{
+        display: inline-flex;
+        list-style-type: none;
+
+    }
+
+    .d3 div{
+        width: 100vw;
+        height: 100px;
+        background: #D2D4F2;
+    }
+    .i2{
+        position: relative;
+        left: 8.99vw;
+
+    }
+    .d3 .circ{
+        order: 1;
+        width: 77.21px;
+        height: 77.21px;
+        border-radius: 50%;
+        background: #BABEFF;
+        border: 2.79px solid white;
+        position: relative;
+        top: 10px;
+    }
+    .i1{
+        order: 0;
+        position: relative;
+        left: 3.05vw;
+        top: 30px;
+    }
+    .i1 p{
+        position: absolute;
+        width: 23px;
+        height: 36px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+
+        color: #1E1E1E;
+
+    }
+    .i3 {
+        order:2;
+        position: relative;
+        left: 13.33vw;
+        top: 30px;
+    }
+    .i3 p{
+        position: relative;
+        width: 250px;
+        height: 36px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+
+        color: #1E1E1E;
+    }
+    .i4 {
+        order: 3;
+        position: relative;
+        left: 58.47vw;
+        top: 34px;
+    }
+    .i4 p{
+        position: relative;
+        width: 22px;
+        height: 36px;
+        
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        
+        color: #000000;
+    }
